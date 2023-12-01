@@ -1,0 +1,30 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "Игрок может выбирать персонажей в команду на конкретный раунд исходя из их текущего состояния, уровня и стратегии игры. Нам необходимо не позволять ему добавлять в команду несколько раз одного и того же персонажа.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test -- --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/myx777/Set.git"
+  },
+  "author": "myx777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myx777/Set/issues"
+  },
+  "homepage": "https://github.com/myx777/Set#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "core-js": "^3.33.3",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "minimatch": "^3.0.2"
+  }
+}
